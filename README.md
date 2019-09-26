@@ -23,7 +23,7 @@ DATA_SCHEMA.png
 SCRIPT_EXECUTION_SEQUENCE1,2.Png -- This includes script exection flow,Functionality of scripts and output of script.  
 
 
-### CODE
+### CODE :
 
 1. INPUT -- This folder contains B2C and B2B dataset downloaded from kaggel 
      B2C -- https://kaggle.com/olistbr/brazilian-ecommerce
