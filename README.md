@@ -47,7 +47,7 @@ SCRIPT_EXECUTION_SEQUENCE1,2.Png -- This includes script exection flow,Functiona
              /pig.sh
              /hbase_table_cre.sh 
              /hbase_table_data_load.sh 
-  #### *All above scripts auotomate Data manupulation, Data processing, DDL creation, Table creation according to the DDL in MYSQL, hive and hbase 
+  #### *All above scripts auotomate Data manupulation, Data processing, DDL creation, Table creation according to the DDL in MYSQL, hive and hbase* 
   database, Creation of Hive views, pig scripts for analysis, and finally loading analyzed data into Hbase tables.* 
   
   5.Tableau : Insights of each usecase.
