@@ -1,0 +1,11 @@
+#######
+1. Raw_file 
+   1) Loan_data
+   2) Customer
+2. clean file after removing the header and " from the file .
+3. output of mapreduce job in hdfs 
+4. mysql table for customer created,dataload,script run 
+5. sqoop command to load the data of customer from Mysql to hdfs and create the hive table 
+6. hive table "loan_data" Creation in the hive for map reduce output file.
+7. views created in hive and status of the query in the screenshot,resultS of hive query stored on the hdfs 
+8. Table creation in the hbase and data_load through script 

@@ -1,0 +1,1 @@
+LOAD DATA INFILE "/home/cloudera/Source/Customer/m_Customer.csv" INTO TABLE Customer.Customer COLUMNS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES;

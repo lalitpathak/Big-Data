@@ -1,0 +1,74 @@
+[cloudera@quickstart Script]$ ./hbase_table_Creation.sh 
+2019-04-27 16:27:31,580 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'lon_amt','lon_amt'
+0 row(s) in 2.8630 seconds
+
+Hbase::Table - lon_amt
+2019-04-27 16:27:52,277 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'annual_inc_by_state','annual_inc_by_state'
+0 row(s) in 1.7750 seconds
+
+Hbase::Table - annual_inc_by_state
+2019-04-27 16:28:11,929 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'application_type','application_type'
+0 row(s) in 1.6590 seconds
+
+Hbase::Table - application_type
+2019-04-27 16:28:32,260 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'avg_int_rate','avg_int_rate'
+0 row(s) in 1.6480 seconds
+
+Hbase::Table - avg_int_rate
+2019-04-27 16:28:51,958 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'avg_int_rate_by_state','avg_int_rate_by_state'
+0 row(s) in 1.6920 seconds
+
+Hbase::Table - avg_int_rate_by_state
+2019-04-27 16:29:11,026 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'funded_amnt','funded_amnt'
+0 row(s) in 1.7030 seconds
+
+Hbase::Table - funded_amnt
+2019-04-27 16:29:31,309 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'loan_purpose','loan_purpose'
+0 row(s) in 1.6930 seconds
+
+Hbase::Table - loan_purpose
+2019-04-27 16:29:52,552 INFO  [main] Configuration.deprecation: hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+Type "exit<RETURN>" to leave the HBase Shell
+Version 1.2.0-cdh5.13.0, rUnknown, Wed Oct  4 11:16:18 PDT 2017
+
+create 'monthwise_loan','monthwise_loan'
+0 row(s) in 1.7100 seconds
+
+Hbase::Table - monthwise_loan
+[cloudera@quickstart Script]$ 
