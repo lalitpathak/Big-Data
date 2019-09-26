@@ -1,0 +1,1 @@
+CREATE TABLE Olist.olist_marketing_qualified_leads (mql_id varchar(50) COLLATE utf8_unicode_ci,	first_contact_date varchar(50) COLLATE utf8_unicode_ci,	landing_page_id  varchar(50) COLLATE utf8_unicode_ci, origin varchar(50) COLLATE utf8_unicode_ci, year varchar(50) COLLATE utf8_unicode_ci, month varchar(50) COLLATE utf8_unicode_ci, date varchar(50) COLLATE utf8_unicode_ci)

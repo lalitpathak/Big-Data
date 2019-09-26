@@ -1,0 +1,6 @@
+------------------------------------------------------------------------------
+preparing files for MySQL database.
+Files prepared for MYSQL database.
+------------------------------------------------------------------------------
+preparing files for Hive database.
+Files prepared for Hive database and Mapreduce.

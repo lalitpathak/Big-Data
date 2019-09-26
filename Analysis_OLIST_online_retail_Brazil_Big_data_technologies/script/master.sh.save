@@ -1,0 +1,10 @@
+/home/cloudera/PDA_PROJECT_OLIST/script/./pre_processing 
+/home/cloudera/PDA_PROJECT_OLIST/script/./Mysql.sh   
+/home/cloudera/PDA_PROJECT_OLIST/script/./Sqoop.sh   
+/home/cloudera/PDA_PROJECT_OLIST/script/./map_reducefilter.sh 
+/home/cloudera/PDA_PROJECT_OLIST/script/./hive_table_creation.sh 
+/home/cloudera/PDA_PROJECT_OLIST/script/./hive_view_creation.sh 
+/home/cloudera/PDA_PROJECT_OLIST/script/./hive_view_result.sh 
+/home/cloudera/PDA_PROJECT_OLIST/script/./pig.sh & sleep 5
+/home/cloudera/PDA_PROJECT_OLIST/script/./hbase_table_cre.sh 
+/home/cloudera/PDA_PROJECT_OLIST/script/./hbase_table_data_load.sh 

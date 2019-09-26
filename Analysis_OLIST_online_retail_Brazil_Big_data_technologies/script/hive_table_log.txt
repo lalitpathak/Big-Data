@@ -1,0 +1,187 @@
+./hive_table_creation.sh: line 4: and: command not found
+./hive_table_creation.sh: line 5: on: command not found
+---------------------------------------------------------------
+----------------Creation of directory on HDFS -----------------
+----------------HDFS Directory Created -------------------------
+----------------Loading Data On HDFS ----------------------------
+-------------------Data Load Successful-----------------------------
+-------------------Exernal Hive table creation ---------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+OK
+Time taken: 1.438 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+OK
+Time taken: 0.674 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+OK
+Time taken: 0.66 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+OK
+Time taken: 0.639 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+OK
+Time taken: 0.67 seconds
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+-------------------Hive tables sucessfully created in Olist database------------------------------
+--------------------------------------------------------------------------------------------------
+-------------------Count Validation---------------------------------------------------------------
+--------count of table customer-----------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Query ID = cloudera_20190814163838_b5ed45be-f367-4adf-82dd-592498ef03b8
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1565617423121_0087, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1565617423121_0087/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1565617423121_0087
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-08-14 16:39:10,770 Stage-1 map = 0%,  reduce = 0%
+2019-08-14 16:39:20,880 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.95 sec
+2019-08-14 16:39:30,660 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.34 sec
+MapReduce Total cumulative CPU time: 3 seconds 340 msec
+Ended Job = job_1565617423121_0087
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 3.34 sec   HDFS Read: 9255677 HDFS Write: 6 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 340 msec
+OK
+99441
+Time taken: 41.903 seconds, Fetched: 1 row(s)
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+--------count of table order_item---------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Query ID = cloudera_20190814163939_430ebf1e-cef5-47e8-9c39-fdeea1edcc3f
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1565617423121_0088, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1565617423121_0088/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1565617423121_0088
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-08-14 16:39:52,030 Stage-1 map = 0%,  reduce = 0%
+2019-08-14 16:40:03,343 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 3.59 sec
+2019-08-14 16:40:11,058 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.87 sec
+MapReduce Total cumulative CPU time: 4 seconds 870 msec
+Ended Job = job_1565617423121_0088
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 4.87 sec   HDFS Read: 15145790 HDFS Write: 7 SUCCESS
+Total MapReduce CPU Time Spent: 4 seconds 870 msec
+OK
+112650
+Time taken: 30.838 seconds, Fetched: 1 row(s)
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+--------count of table orders-------------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Query ID = cloudera_20190814164040_df6dd385-915d-411a-82ca-e5afe7362778
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1565617423121_0089, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1565617423121_0089/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1565617423121_0089
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-08-14 16:40:32,380 Stage-1 map = 0%,  reduce = 0%
+2019-08-14 16:40:40,070 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.42 sec
+2019-08-14 16:40:47,594 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2.71 sec
+MapReduce Total cumulative CPU time: 2 seconds 710 msec
+Ended Job = job_1565617423121_0089
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.71 sec   HDFS Read: 17177587 HDFS Write: 6 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 710 msec
+OK
+99441
+Time taken: 28.412 seconds, Fetched: 1 row(s)
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+--------count of table payment -----------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Query ID = cloudera_20190814164040_423117b4-0c0d-4641-a184-bce3e83a5b84
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1565617423121_0090, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1565617423121_0090/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1565617423121_0090
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-08-14 16:41:09,206 Stage-1 map = 0%,  reduce = 0%
+2019-08-14 16:41:16,923 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2019-08-14 16:41:24,532 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2.66 sec
+MapReduce Total cumulative CPU time: 2 seconds 660 msec
+Ended Job = job_1565617423121_0090
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.66 sec   HDFS Read: 6353646 HDFS Write: 7 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 660 msec
+OK
+103886
+Time taken: 26.696 seconds, Fetched: 1 row(s)
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+--------count of table review-------------------------
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Query ID = cloudera_20190814164141_b443e96c-f511-4d3b-bfcd-25a7a8b764dc
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1565617423121_0091, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1565617423121_0091/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1565617423121_0091
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-08-14 16:41:48,852 Stage-1 map = 0%,  reduce = 0%
+2019-08-14 16:41:56,593 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.35 sec
+2019-08-14 16:42:05,359 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2.62 sec
+MapReduce Total cumulative CPU time: 2 seconds 620 msec
+Ended Job = job_1565617423121_0091
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 2.62 sec   HDFS Read: 13874874 HDFS Write: 7 SUCCESS
+Total MapReduce CPU Time Spent: 2 seconds 620 msec
+OK
+105764
+Time taken: 31.592 seconds, Fetched: 1 row(s)
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
+-------------------------------------------------------------------------------------------------
