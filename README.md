@@ -1,6 +1,6 @@
 # Big-Data-using-Hadoop-Ecosystem
 
-## *Analysis_OLIST* - B2B and B2C analysis for Olist using HBase, MapReduce, MySQL, Pig and Hive
+## 1.*Analysis_OLIST* - B2B and B2C analysis for Olist using HBase, MapReduce, MySQL, Pig and Hive
 
 Objective : Implementing and analyzing power of big data technologies in Retail industry to define the business strategies
 
